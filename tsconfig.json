@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./typings"],
+    "target": "es2019",
+    "module": "commonjs",
+    "allowJs": true,
+    "lib": ["es2019"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true
+  },
+  "include": ["./src/**/*"]
+}
